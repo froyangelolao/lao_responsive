@@ -397,7 +397,9 @@ Set the default cursor for buttons.
 
 button,
 [role="button"] {
-  cursor: pointer;
+  cursor: pointer;.min-w-full {
+    min-width: 80%;
+}
 }
 
 /*
